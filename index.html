@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="left-side">
+          <div class="logo">
+            <img src="./images/logo.svg" alt="logo" />
+          </div>
+
+          <ul class="nav-links">
+            <li>
+              Features
+              <img
+                src="./images/icon-arrow-down.svg"
+                alt="dropdown-arr"
+                class="arrow"
+              />
+              <div class="sub-menu one">
+                <p class="sub-link">
+                  <img src="./images/icon-todo.svg" alt="icon" />
+                  Todo-List
+                </p>
+                <p class="sub-link">
+                  <img src="./images/icon-calendar.svg" alt="icon" />
+                  Calender
+                </p>
+                <p class="sub-link">
+                  <img src="./images/icon-reminders.svg" alt="icon" />
+                  Reminders
+                </p>
+                <p class="sub-link">
+                  <img src="./images/icon-planning.svg" alt="icon" />
+                  Planning
+                </p>
+              </div>
+            </li>
+            <li>
+              Company
+              <img
+                src="./images/icon-arrow-down.svg"
+                alt="dropdown-arr"
+                class="arrow"
+              />
+              <div class="sub-menu two">
+                <p class="sub-link">History</p>
+                <p class="sub-link">Our team</p>
+                <p class="sub-link">Blog</p>
+              </div>
+            </li>
+            <li>Careers</li>
+            <li>About</li>
+          </ul>
+        </div>
+        <div class="mobile-menu_btn">
+          <img src="./images/icon-menu.svg" alt="hamburger" />
+        </div>
+        <div class="mobile-menu">
+          <ul class="mobile-links">
+            <li>
+              Features
+              <img
+                src="./images/icon-arrow-down.svg"
+                alt="dropdown-arr"
+                class="arrow"
+              />
+              <div class="mobile-sub">
+                <p class="sub-link">
+                  <img src="./images/icon-todo.svg" alt="icon" />
+                  Todo-List
+                </p>
+                <p class="sub-link">
+                  <img src="./images/icon-calendar.svg" alt="icon" />
+                  Calender
+                </p>
+                <p class="sub-link">
+                  <img src="./images/icon-reminders.svg" alt="icon" />
+                  Reminders
+                </p>
+                <p class="sub-link">
+                  <img src="./images/icon-planning.svg" alt="icon" />
+                  Planning
+                </p>
+              </div>
+            </li>
+            <li>
+              Company
+              <img
+                src="./images/icon-arrow-down.svg"
+                alt="dropdown-arr"
+                class="arrow"
+              />
+              <div class="mobile-sub">
+                <p class="sub-link">History</p>
+                <p class="sub-link">Our team</p>
+                <p class="sub-link">Blog</p>
+              </div>
+            </li>
+            <li>Careers</li>
+            <li>About</li>
+          </ul>
+
+          <button class="btn-transparent_mobile">Login</button>
+          <button class="btn-border_mobile">Register</button>
+        </div>
+        <div class="right-side">
+          <button class="btn-transparent">Login</button>
+          <button class="btn-border">Register</button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="heading">Make <br />remote work</h1>
+          <p class="main-content">
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <button class="primary-btn">Learn more</button>
+          <div class="logos">
+            <img src="./images/client-databiz.svg" alt="client-databiz" />
+            <img src="./images/client-audiophile.svg" alt="client-audiophile" />
+            <img src="./images/client-meet.svg" alt="client-meet" />
+            <img src="./images/client-maker.svg" alt="client-maker" />
+          </div>
+        </div>
+        <div class="hero-image">
+          <picture>
+            <source
+              media="(max-width: 640px)"
+              srcset="./images/image-hero-mobile.png"
+            />
+            <img
+              src="./images/image-hero-desktop.png"
+              alt="hero-image"
+              class="image-hero"
+            />
+          </picture>
+        </div>
+      </div>
+    </main>
+    <div class="overlay"></div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Malshua</a>.
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
